@@ -15,16 +15,17 @@ public class Watch_Store_Tester
 		watchStore.addWatch(DATEJUST_36);
 		watchStore.addWatch(DATEJUST_35);
 
-		//User
-		while(true)
-		{
-			int code = Code();
-			if(code == 1)
-			{
+		
+		//while(true)
+		//{
+			//int code = Code();
+			//if(code == 1)
+			//{
 				
-			}
-			else
-			{
+			//}
+			//User
+			//else
+			//{
 				while(true) 
 				{
 					Object tempOne = dropDownMenu(watchStore.getWatch());
@@ -64,9 +65,9 @@ public class Watch_Store_Tester
 						break;
 					}
 					
-				}
-				break;
-			}
+				//}
+				//break;
+			//}
 		}
 	}//end main
 	public static Object dropDownMenu(ArrayList lst)
